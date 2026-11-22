@@ -1,8 +1,11 @@
 {
-  "name": "kiro-fork-fixture",
+  "name": "kiro-owned-vendored-helper-control",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/smoke.cjs"
+  },
+  "devDependencies": {
+    "@kiro-owned/test-helper": "file:./vendor/test-helper"
   }
 }
