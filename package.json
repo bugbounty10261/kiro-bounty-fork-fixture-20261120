@@ -1,12 +1,11 @@
 {
-  "name": "kiro-dependency-schedule-repo",
+  "name": "kiro-owned-vendored-helper-control",
   "version": "1.0.0",
   "private": true,
-  "description": "Owned single-dependency repository for Kiro Web schedule testing",
   "scripts": {
     "test": "node test/smoke.cjs"
   },
-  "dependencies": {
-    "@michaelbugbug/dep-update-demo": "^1.0.0"
+  "devDependencies": {
+    "@kiro-owned/test-helper": "file:./vendor/test-helper"
   }
 }
