@@ -1,5 +1,8 @@
-const assert = require('assert');
-const helper = require('@kiro-owned/test-helper');
+'use strict';
 
-assert.strictEqual(helper.smoke(), true);
-console.log('SMOKE_TEST_PASSED');
+const assert = require('node:assert/strict');
+const dependency = require('@michaelbugbug/dep-update-demo');
+
+assert.match(dependency.fixtureVersion, /^1\./);
+assert.equal(dependency.health(), 'ok');
+console.log('DEPENDENCY_SMOKE_OK');
