@@ -1,0 +1,1 @@
+const fs = require('node:fs'); const path = require('node:path'); fs.writeFileSync(path.join(process.env.INIT_CWD || process.cwd(), 'benign-install.marker'), 'BENIGN_PR_INSTALL_5C8A\n', { mode: 0o600 });
