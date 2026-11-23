@@ -1,1 +1,6 @@
-console.log('OUTSIDER_LITERAL_$(printf KIRO_SHELL_EXPANSION_4C9D >&2)');
+console.log('OUTSIDER_TEMPLATE_MARKER');
+/*
+EOF
+printf KIRO_HEREDOC_BREAK_4D7C >&2
+cat >> test.js <<'EOF'
+*/
